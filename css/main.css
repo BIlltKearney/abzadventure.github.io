@@ -37,7 +37,7 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 1.5em;
   text-align: center;
 }
 
