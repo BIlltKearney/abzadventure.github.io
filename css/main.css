@@ -1,9 +1,5 @@
 body { margin: 60px auto; width: 70%; }
 
-a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
-
-p, ul { font-size: 1em; line-height: 1.1em; color: #333; }
 
 * {
   box-sizing: border-box;
@@ -12,20 +8,27 @@ p, ul { font-size: 1em; line-height: 1.1em; color: #333; }
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 1em;
-  text-align: left;
 }
 
 .flex-item-left {
   padding: 10px;
   flex: 50%;
+  text-align: center;
+
 }
 
 .flex-item-right {
   padding: 10px;
   flex: 50%;
+  text-align: left;
+  font-size: 1.3em;
+  
 }
 
+a { text-decoration: none; color: #999; }
+a:hover { text-decoration: underline; }
+
+p, ul { font-size: 1.3em; line-height: 1.4em; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
