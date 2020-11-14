@@ -22,12 +22,35 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
   display: flex;
 }
 
-.content img {
+/*.content img {
   margin-right: 10px;
   display: block;
 
-/*.content h3,*/
+/*.content h3,
 .content p {padding: 0 7px; margin: 0; font-size: 1.5em; line-height: 1.4em; color: #333; }
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
 }
 
 /* Blog */
