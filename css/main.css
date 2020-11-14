@@ -17,16 +17,16 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
-/*picture with text*/
+/*picture with text
 .content {
   display: flex;
 }
 
-/*.content img {
+.content img {
   margin-right: 10px;
   display: block;
 
-/*.content h3,
+.content h3,
 .content p {padding: 0 7px; margin: 0; font-size: 1.5em; line-height: 1.4em; color: #333; }
 }*/
 
