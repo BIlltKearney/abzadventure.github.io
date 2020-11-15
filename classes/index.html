@@ -2,11 +2,52 @@
 layout: default
 title: Ann Kearney's Classes
 ---
-<h1>{{ page.title }}</h1>
-<ul class="posts">
-
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-  {% endfor %}
-    
-</ul>
+<style>
+  .media {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 44em;
+  }
+  .media-object {
+    margin-right: 1em;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+</style>
+<div class="media">
+  <img class="media-object" src="/photos/ann.png" alt="class name">
+  <div class="media-body">
+    <h3 class="media-heading">class name</h3>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+  </div>
+</div>
+<div class="media">
+  <img class="media-object" src="/photos/ann.png" alt="class name2">
+  <div class="media-body">
+    <h3 class="media-heading">class name2</h3>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+  </div>
+</div>
+<div class="media">
+  <img class="media-object" src="/photos/ann.png" alt="class name3">
+  <div class="media-body">
+    <h3 class="media-heading">class name3</h3>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+		<p>descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription</p>
+  </div>
+</div>
